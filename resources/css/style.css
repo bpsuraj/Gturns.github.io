@@ -1,0 +1,566 @@
+/***BASIC SETUP***/
+
+body{
+    font-size: 20px;
+    
+    color: #000;
+    background-color: #fff;
+    font-family: 'lato','sans-serif';
+    
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+/*** HEADER ***/
+
+
+header{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35)),url(cssimage/cssimg.jpg);
+     width: 100%;
+     height: 100vh;
+     background-attachment: fixed;
+     background-size:cover;
+     background-position: center;
+}
+
+/*  Main Nav    */
+
+.main-nav{
+    list-style:none;
+    float: right;
+   
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 25px;
+    
+}
+
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    
+    color: #fff;
+    font-weight: 300;
+    padding: 8px 0;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+
+.main-nav li a:hover,
+.mian-nav li a:active{
+    
+    border-bottom: 2px solid rgb(255, 98, 0);
+    transition: border-bottom 0.2s;
+}
+
+/***   STICKY NAVI ***/
+
+.sticky{
+    position: fixed;
+    
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(23, 248, 248, 0.37);
+}
+
+.sticky{
+    
+    background-color: aqua;
+}    
+
+
+.hero-text-box{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 180px;
+}
+
+.hero-text-box a{
+    margin-left: 570px;
+}
+
+/*** BUTTONS ***/
+
+
+.btn
+{
+    background-color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 30%;
+    padding: 5px;
+    color: #fff;
+    
+}
+
+.btn-premium:hover,
+.btn-premium:active{
+    background-color: rgba(248, 82, 8, 0.95);
+}
+
+
+.plans-btn{
+    margin-left: 30%;
+}
+
+
+
+
+/***FOOTER***/
+
+footer{
+    background-color: rgba(170, 170, 170, 0.88);
+    
+}
+
+
+.footer-nav{
+    
+    list-style: none;   
+    float: left;
+    
+    
+}
+
+.social-links{
+    
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li{
+   
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-links li {
+ 
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+.footer-nav li:last-child,
+.social-links li:last-child{
+    margin-right: 0;
+    
+}
+
+.footer-nav li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase; 
+}
+
+.social-links li a{
+     text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+.youtube:hover,
+.youtube:active{
+    color: rgba(255, 0, 0, 0.79);
+}
+
+.twitter:hover,
+.twitter:active{
+    color: #0089ff;
+}
+
+.facebook:hover,
+.facebook:active{
+    color: #2d00ea;
+}
+
+.google-plus:hover,
+.google-plus:active
+{
+    color: #f2f211;
+}
+
+footer p{
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+/*** HEADINGS ***/
+
+
+
+h1{
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+h2{
+    text-transform: uppercase;      /*GENERAL FOR ALL HEADINGS H1 H2 H3*/
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2:after
+{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #ff6c00;
+    content: "";
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+/***HOW IT WORKS***/
+
+.section-how-it-works{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/*** photo ***/
+
+.section-photo{
+   
+   
+    margin-bottom: 580px;
+}
+
+.photo-showcase{
+    list-style: none;
+    width: 100%;
+    
+    
+    
+}
+
+.photo-showcase li
+{
+    
+    float: left;
+    width: 25%;
+
+}
+
+.photo-photo{
+    
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000; 
+    
+}
+
+.photo-photo img{
+    
+    
+    opacity: 0.5;
+    width: 100%;
+    height: 250;
+    transform: scale(1.2);
+    
+}
+
+.photo-photo img:hover{
+    opacity: 1;
+    transform: scale(1);
+    transition: 0.9s;
+    
+}
+
+.works-step div{
+    
+    border: 2px solid #ff6c00;
+    border-radius: 50%;
+    text-align: center;
+    height: 44px;
+    width: 44px;
+    font-size: 180%;
+    color: #ff6c00;
+    float: left;
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.app-screen{
+    height: 350px;
+    width: 350px;
+    margin-left: 50px;
+}
+
+
+/***BUTTONS***/
+
+.submit{
+    border-radius: 10%;
+}
+
+.btn-app img{
+    height: 50px;
+    width: 120px;
+    margin-right: 30px;
+}
+
+
+
+/***FORM***/
+
+.contact-form{
+    width: 75%;
+    margin-left: auto;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+select,textarea{
+    height: 30px;
+    width: 50%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea{
+ height: 100px;    
+}
+
+.form-box{
+    padding-top: 45px;
+    background-color: rgba(227, 227, 227, 0.17);
+}
+
+
+/*** TESTOMONIALS ***/
+
+
+.section-testimonials
+{
+    background-image:   linear-gradient(rgba(0, 0, 0, 0.27),rgba(0, 0, 0, 0.67)),url(cssimage/cssimage2.jpg);
+    color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-testimonials img{
+    height: 50px;
+    
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+blockquote{
+    text-align: justify;
+    font-style: italic;
+    line-height: 25px;
+    
+    position: relative;
+}
+
+blockquote:before
+{
+    content: "\201C";
+    font-size: 300%;
+    display: block;
+    position: absolute;
+    top: -8px;
+    left: -20px;
+}
+
+
+/***FEATURES***/
+.section-features{
+    background-color: rgba(112, 178, 178, 0.08);
+}
+.icon-big{
+    color: #f85208;
+    display: block;
+    font-size: 250%;
+    
+}
+
+.long-copy{
+    
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+.long-copy-why-invest{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 400;
+
+}
+
+h3{
+    
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 100%;
+    margin-top: 15px;
+    
+}
+
+.box p{
+    text-align: justify;
+    line-height: 140%;
+    word-spacing: 1px;
+    font-weight: 100;
+}
+
+
+
+/***CITIES***/
+
+
+
+.icon-small{
+    
+    color: #f85208;
+    font-size: 250%;
+    margin-right: 5px;
+    background-color: #fff;
+   
+    
+}
+
+.section-cities img{
+    
+    height: 150px;
+    width: 150px;
+    margin-left: 30%;;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+.city-features{
+    
+    margin-left: 80px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.city-features:last-child{
+    margin-bottom: 50px;
+    
+}
+
+.city-features a:last-child{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+/*** STICKY ***/
+
+.sticky{
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+.sticky .main-nav:link
+.sticky .main-nav:visited{
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+/*** DIFFERENT PLANS ***/
+
+.section-plans{
+    background-color: #fff;
+}
+
+.plan-box{
+border: 1px solid rgba(172, 172, 172, 0.81);
+border-radius: 5px;
+background-color: rgb(219, 219, 219);
+width: 90%;
+margin-left: 5%;
+box-shadow: 0 2px 18px #9a9a9a;
+}
+
+.plans-list{
+    list-style: none;
+    
+}
+
+
+.plan-box div:first-child{
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+
+
+.plan-box div:last-child{
+    background-color: rgba(0, 255, 137, 0.65);
+    border-radius: 5px;
+}
+
+.plan-box div{
+    padding: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.71); 
+}
+
+
+
+/*** MAPS ***/
+
+.maps
+{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
